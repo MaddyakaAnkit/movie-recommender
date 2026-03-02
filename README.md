@@ -128,6 +128,8 @@ curl -X POST http://localhost:5001/predict \
 ---
 
 ## 🐳 Docker
+
+![Docker](screenshots/Docker.png)
 ```bash
 # Build
 docker build -t movie-recommender .
@@ -139,7 +141,6 @@ docker run -p 5001:5001 movie-recommender
 curl http://localhost:5001/health
 # → {"status": "ok"}
 ```
-
 ---
 
 ## 🧪 Tests
