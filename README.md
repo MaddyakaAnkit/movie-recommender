@@ -45,6 +45,7 @@ Every training run is tracked automatically — parameters, metrics, and curves 
 ### NCF Training Loss Curve
 NCF trained for 17 epochs with early stopping at optimal weights (best val_loss: 0.9509 at epoch 12).
 
+![NCF Training Loss](screenshots/train_loss.png)
 ---
 
 ## 🌐 REST API
